@@ -1,6 +1,6 @@
-## DeepSeek 多模态大模型 Janus-Pro 本地部署教程
+# DeepSeek 多模态大模型 Janus-Pro 本地部署教程
 
-##下载模型仓库
+## 下载模型仓库
 
  git clone https://github.com/deepseek-ai/Janus.git下载模型仓库
  
@@ -37,7 +37,7 @@ modelscope download --model deepseek-ai/Janus-Pro-7B
 modelscope download --model deepseek-ai/Janus-Pro-7B --local_dir 'path/to/dir'
 打开 ./demo/app_januspro.py 文件，并在15行处，修改为当前本地模型下载地址路径
 
-##接着就可以启动服务：python demo/app_januspro.py
+## 接着就可以启动服务：python demo/app_januspro.py
 
 修改 gradio 地址或端口
 打开 ./demo/app_januspro.py 文件，在244行处，进行修改
